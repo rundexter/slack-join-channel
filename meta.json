@@ -1,0 +1,19 @@
+/*
+ * Metadata describing the module operation
+ */
+{
+    //Required. Inputs the module expects.
+    "inputs": [{
+        "id"    : "channel_id",
+        "title" : "Channel Id"
+    }],
+    //Required. Outputs the module emits.
+    "outputs": [],
+    "providers": [{
+        "name"   : "slack",
+        "scopes" : ["channels:write","channels:read"]
+    }],
+    "icon": "slack",
+    /* Required.A display name for the module */
+    "title": "Slack Join Channel"
+}

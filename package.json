@@ -1,0 +1,18 @@
+{
+  "name": "slack-join-channel",
+  "version": "0.0.1",
+  "description": "Join a Slack channel",
+  "main": "index.js",
+  "author": "Run Dexter, Inc",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "q": "^1.4.1",
+    "superagent": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rundexter/slack-join-channel"
+  }
+}
